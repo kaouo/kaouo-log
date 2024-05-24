@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `네이버 블로그`,
-      href: "https://www.naver.com/okmohae",
+      href: "https://blog.naver.com/okmohae",
     },
   ],
   // blog setting (required)
