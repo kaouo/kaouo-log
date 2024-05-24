@@ -55,7 +55,7 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: "kaouo/kaouo-log"
+      repo: "kaouo/kaouo-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
