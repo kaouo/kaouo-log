@@ -1,25 +1,25 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "GaYoung Hong",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    role: "Frontend Developer",
+    bio: "프론트엔드 개발자를 꿈꾸는 대학생입니다 :)",
+    email: "iamkaouo@gmail.com",
+    linkedin: "",
+    github: "kaouo",
+    instagram: "kaouo.i",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `네이버 블로그`,
+      href: "https://www.naver.com/okmohae",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "kaouo-log",
+    description: "welcome to kaouo-log!",
   },
 
   // CONFIG configration (required)
@@ -53,9 +53,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "kaouo/kaouo-log"
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
